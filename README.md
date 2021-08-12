@@ -1,6 +1,6 @@
 # Enabling profiles for coastal wetland conservation
 
-Explore the web app [here](https://cbuelow.shinyapps.io/conservation-opportunity/)
+Tour the web app [here](https://cbuelow.shinyapps.io/conservation-opportunity/)
 
 [About](#about) | [License](LICENSE)
 
