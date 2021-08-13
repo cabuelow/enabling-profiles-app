@@ -17,7 +17,7 @@ Please cite Buelow et al. (*in prep*) *'Global opportunities for vegetated coast
 #### Indicators and data sources for enabling mechanisms
 
 
-| Category  | Indicator | Description | Source |
+| Mechanism category  | Indicator | Description | Source |
 | ------------- | ------------- | ------------- | ------------- |
 | Policy | Nationally Determined Contribution (NDC) commitment | The commitment of a country to reducing green-house gas emissions, pledged as Nationally Determined Contributions (NDC) | Watson, R., McCarthy, J.J., Canziani P., Nakicenovic, N., Hisas, L. 2019. The truth behind the climate pledges. The Universal Ecological Fund (FEU-US) |
 | Policy | Nationally Determined Contribution (NDC) mitigation | Whether coastal wetlands are included in a country’s Nationally Determined Contribution (NDC) mitigation strategy | Herr, D., & Landis, E. 2016. Coastal blue carbon ecosystems Opportunities for Nationally Determined Contributions. Policy brief. Gland, Switzerland: IUCN and Washington, DC, USA: TNC. Retrieved from www.bluecsolutions.org |
