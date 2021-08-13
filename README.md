@@ -15,4 +15,3 @@ Each **Enabling Profile** represents distinct conditions for vegetated coastal w
 Use the [app](https://cbuelow.shinyapps.io/conservation-opportunity/) to explore **Enabling Profiles** and their policy, regulatory and engagement indicator status.
 
 Please cite Buelow et al. (*in prep*) **People and Nature** if you use output from this app.
-
