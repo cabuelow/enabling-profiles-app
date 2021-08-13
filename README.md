@@ -4,9 +4,7 @@ Tour the web app [here](https://cbuelow.shinyapps.io/conservation-opportunity/)
 
 [About](#about) | [License](LICENSE)
 
-## About
-
-### Enabling profiles for coastal wetland conservation
+### About
 
 Conservation requires policy, regulatory and engagement mechanisms that enable effective action. We used 19 indicators of enabling mechanisms to group countries across the world into six **Enabling Profiles**.
 
