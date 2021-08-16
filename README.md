@@ -10,7 +10,7 @@ Please cite Buelow et al. (*in prep*) *'Global opportunities for vegetated coast
 
 Conservation requires policy, regulatory and engagement mechanisms that enable effective action. We used 19 indicators of enabling mechanisms to group countries across the world into six **Enabling Profiles**.
 
-Each **Enabling Profile** represents distinct conditions for vegetated coastal wetland conservation (i.e., mangroves, seagrass and saltmarsh).
+Each **Enabling Profile** represents distinct enabling conditions for vegetated coastal wetland conservation (i.e., mangroves, seagrass and saltmarsh).
 
 Use the [app](https://wetlands.app/enabling-profiles/) to explore **Enabling Profiles** and their policy, regulatory and engagement indicator status.
 
