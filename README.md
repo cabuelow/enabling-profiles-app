@@ -14,7 +14,7 @@ Each **Enabling Profile** represents distinct enabling conditions for vegetated 
 
 Use the [app](https://wetlands.app/enabling-profiles/) to explore **Enabling Profiles** and their policy, regulatory and engagement indicator status.
 
-#### Indicators and data sources for enabling mechanisms
+### Indicators and data sources for enabling mechanisms
 
 
 | Mechanism category  | Indicator | Description | Source |
