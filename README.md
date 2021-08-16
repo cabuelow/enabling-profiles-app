@@ -4,7 +4,7 @@ Tour the web app [here](https://wetlands.app/enabling-profiles/)
 
 Please cite Buelow et al. (*in prep*) *'Global opportunities for vegetated coastal wetland conservation'* in **People and Nature** if you use output from this app.
 
-[About](#about) | [Indicators and data sources for enabling mechanisms](##indicators-and-data-sources-for-enabling-mechanisms) | [License](LICENSE)
+[About](#about) | [Indicators and data sources for enabling mechanisms](#indicators-and-data-sources-for-enabling-mechanisms) | [License](LICENSE)
 
 ### About
 
