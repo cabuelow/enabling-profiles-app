@@ -2,7 +2,9 @@
 
 Tour the web app [here](https://wetlands.app/enabling-profiles/)
 
-[About](#about) | [License](LICENSE)
+Please cite Buelow et al. (*in prep*) *'Global opportunities for vegetated coastal wetland conservation'* in **People and Nature** if you use output from this app.
+
+[About](#about) | [Indicators and data sources for enabling mechanisms](#indicators) | [License](LICENSE)
 
 ### About
 
@@ -11,8 +13,6 @@ Conservation requires policy, regulatory and engagement mechanisms that enable e
 Each **Enabling Profile** represents distinct conditions for vegetated coastal wetland conservation (i.e., mangroves, seagrass and saltmarsh).
 
 Use the [app](https://wetlands.app/enabling-profiles/) to explore **Enabling Profiles** and their policy, regulatory and engagement indicator status.
-
-Please cite Buelow et al. (*in prep*) *'Global opportunities for vegetated coastal wetland conservation'* in **People and Nature** if you use output from this app.
 
 #### Indicators and data sources for enabling mechanisms
 
