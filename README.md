@@ -17,7 +17,7 @@ Each **Enabling Profile** represents distinct enabling conditions for vegetated 
 Use the [app](https://wetlands.app/enabling-profiles/) to explore **Enabling Profiles** and their policy, regulatory and engagement indicator status.
 
 <p align="center">
-  <img width="600" height="350" src="https://github.com/cabuelow/enabling-profiles-app/blob/main/app.png">
+  <img width="600" height="300" src="https://github.com/cabuelow/enabling-profiles-app/blob/main/app.png">
 </p>
 
 
