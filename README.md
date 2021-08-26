@@ -1,4 +1,4 @@
-# Enabling profiles for coastal wetland conservatio
+# Enabling profiles for coastal wetland conservation
 
 Tour the web app [here](https://wetlands.app/enabling-profiles/)
 
