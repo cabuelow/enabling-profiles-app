@@ -16,10 +16,15 @@ Each **Enabling Profile** represents distinct enabling conditions for vegetated 
 
 Use the [app](https://wetlands.app/enabling-profiles/) to explore **Enabling Profiles** and their policy, regulatory and engagement indicator status.
 
+<p align="center">
+  <img width="600" height="330" src="https://github.com/cabuelow/enabling-profiles-app/blob/main/app.png">
+</p>
+
+
 ### Indicators and data sources for enabling mechanisms
 
 
-| Mechanism category  | Indicator | Description | Source |
+| Category  | Indicator | Description | Source |
 | ------------- | ------------- | ------------- | ------------- |
 | Policy | Nationally Determined Contribution (NDC) commitment | The commitment of a country to reducing green-house gas emissions, pledged as Nationally Determined Contributions (NDC) | Watson, R., McCarthy, J.J., Canziani P., Nakicenovic, N., Hisas, L. 2019. The truth behind the climate pledges. The Universal Ecological Fund (FEU-US) |
 | Policy | Nationally Determined Contribution (NDC) mitigation | Whether coastal wetlands are included in a country’s Nationally Determined Contribution (NDC) mitigation strategy | Herr, D., & Landis, E. 2016. Coastal blue carbon ecosystems Opportunities for Nationally Determined Contributions. Policy brief. Gland, Switzerland: IUCN and Washington, DC, USA: TNC. Retrieved from www.bluecsolutions.org |
