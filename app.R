@@ -103,31 +103,34 @@ server <- function(input, output) {
         if(input$var == 'Globe'){
         tmap_mode('view')
         tm_shape(world.clust[,-1]) +
-            tm_fill(col = 'Enabling profile', style = 'cat', palette = pal) +
-            tm_view(view.legend.position = c('left', 'bottom'))
+            tm_fill(col = 'Enabling profile', style = 'cat', palette = pal, alpha = 0.7) +
+            tm_view(view.legend.position = c('left', 'bottom')) +
+            tm_basemap(leaflet::providers$CartoDB.DarkMatter)
         }
         else if(input$var %in% c(1:6)){
         tmap_mode('view')
         pl <- filter(world.clust, `Enabling profile` == input$var)
         tm_shape(pl[,c(2,31)]) +
-            tm_fill(col = pal[pl$`Enabling profile`[1]]) +
-            tm_view(view.legend.position = c('left', 'bottom'))
+            tm_fill(col = pal[pl$`Enabling profile`[1]], alpha = 0.7) +
+            tm_view(view.legend.position = c('left', 'bottom')) +
+            tm_basemap(leaflet::providers$CartoDB.DarkMatter)
         }
         else{
         if(input$var != 'Fiji'){
         tmap_mode('view')
         pl <- filter(world.clust, Country == input$var)
         tm_shape(pl[,c(2,31)]) +
-            tm_fill(col = pal[pl$`Enabling profile`]) +
-            tm_view(view.legend.position = c('left', 'bottom'))}
+            tm_fill(col = pal[pl$`Enabling profile`], alpha = 0.5) +
+            tm_view(view.legend.position = c('left', 'bottom')) +
+            tm_basemap(leaflet::providers$CartoDB.DarkMatter)}
             else{
                 tmap_mode('view')
-               
                 pl <- filter(world.clust, Country == input$var) %>% 
                     st_crop(xmin = 177, ymin = -19.16278, xmax = 179.99999, ymax = -16.15347)
                 tm_shape(pl[,c(2,31)]) +
-                    tm_fill(col = pal[pl$`Enabling profile`]) +
-                    tm_view(view.legend.position = c('left', 'bottom'))
+                    tm_fill(col = pal[pl$`Enabling profile`], alpha = 0.5) +
+                    tm_view(view.legend.position = c('left', 'bottom') +
+                    tm_basemap(leaflet::providers$CartoDB.DarkMatter))
             }
         }
     })
