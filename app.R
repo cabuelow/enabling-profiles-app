@@ -81,18 +81,21 @@ ui <- fluidPage(theme=shinytheme("darkly"),
                 fluidRow(
                     column(12,
                            h4("Countries belong to Enabling Profiles with distinct policy, regulatory and engagement mechanisms for conservation", align = 'center'))),
+                fluidRow(column(12, align = 'center',
+                                conditionalPanel("$('#map').hasClass('recalculating')", 
+                                                 tags$div('Loading ... ', style = "font-size:25px;")))),
                 fluidRow(
-                    column(12, align = 'center', style='padding-top:40px;',
+                    column(12, align = 'center', style='padding-top:10px;',
                          selectInput("var", label = h4("Choose a Profile or Country"), 
                                     choices = country, 
                                     selected = 'Globe'))),
                 fluidRow(
                     column(6, offset = 1, style='padding-top:15px;',
                            tmapOutput('map')), width = 800,
-                    column(5, align = 'center',
+                    column(5, align = 'center', style='margin-left:-90px;',
                             h4('Relative status of enabling mechanisms (high to low)'),
                     fluidRow(
-                        column(12, align = 'center',
+                        column(12, align = 'center',style='margin-left:-20px;',
                         plotOutput('ind.rank', width = 360, height = 370))))))
 
 # Define server logic
