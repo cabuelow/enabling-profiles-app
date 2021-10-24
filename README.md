@@ -2,7 +2,7 @@
 
 Tour the web app [here](https://cbuelow.shinyapps.io/enabling-profiles)
 
-Please cite Buelow et al. (*in prep*) *'Global opportunities for vegetated coastal wetland conservation'* in **People and Nature** if you use output from this app.
+Please cite Buelow et al. (*under review*) *'Global opportunities for vegetated coastal wetland conservation'* in **People and Nature** if you use output from this app.
 
 Find additional data and code for all analyses [here](https://github.com/cabuelow/conservation-opportunity)
 
