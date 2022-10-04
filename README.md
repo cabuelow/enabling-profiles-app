@@ -1,10 +1,10 @@
-# Enabling profiles for coastal wetland conservation
+# Theories of change for coastal wetland ecosystem conservation
 
-Tour the web app [here](https://wetlands.app/enabling-profiles/)
+Tour the web app [here](https://cbuelow.shinyapps.io/enabling-profiles)
 
-Please cite Buelow et al. (*in prep*) *'Global opportunities for vegetated coastal wetland conservation'* in **People and Nature** if you use output from this app.
+Please cite Buelow et al. (*in prep*) *'Enabling conservation theories of change'* if you use output from this app.
 
-Find additional data and code for all analyses [here](https://github.com/cabuelow/conservation-opportunity)
+Find additional data and code for all analyses [here](https://github.com/cabuelow/enabling-theories-of-change)
 
 [About](#about) | [Indicators and data sources for enabling mechanisms](#indicators-and-data-sources-for-enabling-mechanisms) | [License](LICENSE)
 
@@ -14,12 +14,7 @@ Conservation requires policy, regulatory and engagement mechanisms that enable e
 
 Each **Enabling Profile** represents distinct enabling conditions for vegetated coastal wetland conservation (i.e., mangroves, seagrass and saltmarsh).
 
-Use the [app](https://wetlands.app/enabling-profiles/) to explore **Enabling Profiles** and their policy, regulatory and engagement indicator status.
-
-<p align="center">
-  <img width="600" height="330" src="https://github.com/cabuelow/enabling-profiles-app/blob/main/app.png">
-</p>
-
+Use the [app](https://cbuelow.shinyapps.io/enabling-profiles) to explore **Enabling Profiles** and their policy, regulatory and engagement indicator status.
 
 ### Indicators and data sources for enabling mechanisms
 
@@ -34,10 +29,8 @@ Use the [app](https://wetlands.app/enabling-profiles/) to explore **Enabling Pro
 | Policy | Governance effectiveness | Composite indicator of the quality of a country's public services, civil service, degree of its independence from political pressures, quality of policy formulation and implementation, and credibility of its government’s commitment to such policies | Worldwide Governance Indicators, The World Bank. 2019. www.govindicators.org, accessed on [24/11/2020] |
 | Policy | Marine protected areas (MPA) target | The percent of a country’s Economic Exclusion Zone (EEZ) set aside as a marine protected area | Wendling, Z., Emerson, J., de Sherbinin, A., and Esty, D. 2020. Environmental Performance Index 2020. New Haven, CT: Yale Center for Environmental Law & Policy. Retrieved from epi.yale.edu |
 | Policy | Ramsar protection | The area of coastal wetlands under Ramsar jurisdiction in a country standardised by coastline length | The Ramsar Convention Secretariat. 2014. https://rsis.ramsar.org/, accessed on [04/04/2021] |
-| Policy | Ramsar management | Whether a country has Ramsar-listed coastal wetland sites (i.e., intertidal marshes, intertidal forested wetlands, and marine subtidal aquatic beds) with management plans implemented (0 = no, 1 = yes) | The Ramsar Convention Secretariat. 2014. https://rsis.ramsar.org/, accessed on [04/04/2021] |
 | Regulation | Ramsar management | Whether a country has Ramsar-listed coastal wetland sites (i.e., intertidal marshes, intertidal forested wetlands, and marine subtidal aquatic beds) with management plans implemented (0 = no, 1 = yes) | The Ramsar Convention Secretariat. 2014. https://rsis.ramsar.org/, accessed on [04/04/2021] |
 | Regulation | Regulatory quality | A composite indicator of regulatory quality that represent the ability of a country's government to formulate and implement sound policies and regulations that permit and promote private sector development | Worldwide Governance Indicators, The World Bank. 2019. www.govindicators.org, accessed on [24/11/2020] |
-| Regulation | Wastewater treatment | The percentage of wastewater that undergoes at least primary treatment in each country, normalised by the proportion of the population connected to a municipal wastewater collection system | Wendling, Z., Emerson, J., de Sherbinin, A., & Esty, D. 2020. Environmental Performance Index 2020. New Haven, CT: Yale Center for Environmental Law & Policy. Retrieved from epi.yale.edu |
 | Regulation | Wastewater treatment | The percentage of wastewater that undergoes at least primary treatment in each country, normalised by the proportion of the population connected to a municipal wastewater collection system | Wendling, Z., Emerson, J., de Sherbinin, A., & Esty, D. 2020. Environmental Performance Index 2020. New Haven, CT: Yale Center for Environmental Law & Policy. Retrieved from epi.yale.edu |
 | Regulation | Sustainable nitrogen use | How far a country is from achieving sustainable nitrogen use for crop fertilisation | Wendling, Z., Emerson, J., de Sherbinin, A., & Esty, D. 2020. Environmental Performance Index 2020. New Haven, CT: Yale Center for Environmental Law & Policy. Retrieved from epi.yale.edu |
 | Regulation | Sulphur dioxide emission reduction | The average annual rate of increase or decrease in SO2 | Wendling, Z., Emerson, J., de Sherbinin, A., & Esty, D. 2020. Environmental Performance Index 2020. New Haven, CT: Yale Center for Environmental Law & Policy. Retrieved from epi.yale.edu |
