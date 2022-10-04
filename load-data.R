@@ -4,13 +4,16 @@ library(sf)
 library(scales)
 library(RColorBrewer)
 library(leaflet)
+library(rmapshaper)
 
 dat <- read.csv('data/master-df_final.csv')
 clusters <- read.csv('data/cluster.csv')
 clust.name <- read.csv('data/clus-new-order-typ.csv')
 inddat <- read.csv('data/residual-ind-vals-LV9-final.csv')
 indlab <- read.csv('data/indicator-labels.csv')
-World <- st_read('data/UIA_World_Countries_Boundaries/UIA_World_Countries_Boundaries.shp')
+#world_simp <- ms_simplify(World, keep_shapes = T)
+#st_write(world_simp, 'data/UIA_World_Countries_Boundaries/UIA_World_Countries_Boundaries_simp.gpkg', overwrite = T, append = F)
+World <- st_read('data/UIA_World_Countries_Boundaries/UIA_World_Countries_Boundaries_simp.gpkg')
 World$Country <- recode(World$Country, `Russian Federation` = 'Russia',
                         `Brunei Darussalam` = 'Brunei',
                         Comoros = 'Comores',
