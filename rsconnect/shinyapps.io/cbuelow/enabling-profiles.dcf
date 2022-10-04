@@ -1,0 +1,13 @@
+name: enabling-profiles
+title: enabling-profiles
+username:
+account: cbuelow
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4639485
+bundleId: 6367586
+url: https://cbuelow.shinyapps.io/enabling-profiles/
+when: 1664888710.92793
+lastSyncTime: 1664888710.92795
+asMultiple: FALSE
+asStatic: FALSE
