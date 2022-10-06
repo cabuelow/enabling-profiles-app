@@ -14,7 +14,7 @@ Conservation requires policy, regulatory and engagement mechanisms that enable e
 
 Each **Enabling Profile** represents distinct enabling conditions for vegetated coastal wetland conservation (i.e., mangroves, seagrass and saltmarsh).
 
-Use the [app](https://cbuelow.shinyapps.io/enabling-profiles) to explore **Enabling Profiles** and their policy, regulatory and engagement indicator status.
+Use the [app](https://cbuelow.shinyapps.io/enabling-profiles) to explore **Enabling Profiles** and case-study examples of conservation implementation pathways for mangroves and seagrass.
 
 ### Indicators and data sources for enabling mechanisms
 
