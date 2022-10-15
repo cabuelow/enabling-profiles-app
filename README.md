@@ -1,10 +1,10 @@
 # Theories of change for coastal wetland ecosystem conservation
 
-Tour the web app [here](https://cbuelow.shinyapps.io/enabling-profiles)
+Tour the web app [here](https://cbuelow.shinyapps.io/enabling-profiles).
 
 Please cite Buelow et al. (*in prep*) *'Enabling conservation theories of change'* if you use output from this app.
 
-Find additional data and code for all analyses [here](https://github.com/cabuelow/enabling-theories-of-change)
+Find additional data and code for all analyses [here](https://github.com/cabuelow/enabling-theories-of-change).
 
 [About](#about) | [Indicators and data sources for enabling mechanisms](#indicators-and-data-sources-for-enabling-mechanisms) | [License](LICENSE)
 

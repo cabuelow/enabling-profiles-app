@@ -79,7 +79,9 @@ pop_up <- st_drop_geometry(toc_dat) %>%
   mutate(popup = paste0("<span style='font-size: 120%'><strong>", Ecosystem ,"</strong></span><br/>",
                         "<strong>", "Enabling profile: ", "</strong>", Enabling.profile, 
                         "<br/>", 
+                        "<br/>", 
                         "<strong>", "Theory of change: ", "</strong>", Implementation.pathway,
+                        "<br/>", 
                         "<br/>", 
                         "<strong>", "Case study example: ", "</strong>", Case.study)) %>% 
   pull(popup)
@@ -94,3 +96,4 @@ pop_up2 <- st_drop_geometry(world.clust) %>%
 country <- c('Globe','Enabling profile 1', 'Enabling profile 2', 'Enabling profile 3',
              'Enabling profile 4', 'Enabling profile 5', 'Enabling profile 6',
              sort(as.character(unique(world.clust$Country))))
+

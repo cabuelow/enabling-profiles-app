@@ -5,9 +5,9 @@ account: cbuelow
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 4639485
-bundleId: 6367624
+bundleId: 6405456
 url: https://cbuelow.shinyapps.io/enabling-profiles/
-when: 1664889444.35914
-lastSyncTime: 1664889444.35916
+when: 1665820228.74108
+lastSyncTime: 1665820228.7411
 asMultiple: FALSE
 asStatic: FALSE
