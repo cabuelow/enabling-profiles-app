@@ -77,7 +77,15 @@ pal2 <- colorFactor( # colour palette for blue forest projects
 
 pop_up <- st_drop_geometry(toc_dat) %>% 
   mutate(popup = paste0("<span style='font-size: 120%'><strong>", Ecosystem ,"</strong></span><br/>",
+                        "<br/>", 
                         "<strong>", "Enabling profile: ", "</strong>", Enabling.profile, 
+                        "<br/>", 
+                        "<br/>", 
+                        "<strong>", "Policy: ", "</strong>", Policy, 
+                        "<br/>", 
+                        "<strong>", "Regulation: ", "</strong>", Regulation, 
+                        "<br/>", 
+                        "<strong>", "Engagement: ", "</strong>", Engagement, 
                         "<br/>", 
                         "<br/>", 
                         "<strong>", "Theory of change: ", "</strong>", Implementation.pathway,
@@ -87,8 +95,18 @@ pop_up <- st_drop_geometry(toc_dat) %>%
   pull(popup)
 
 pop_up2 <- st_drop_geometry(world.clust) %>% 
+  mutate(Enabling.profile = factor(`Enabling profile`)) %>% 
+  left_join(distinct(mutate(select(st_drop_geometry(toc_dat), Enabling.profile, Policy, Regulation, Engagement), Enabling.profile = factor(Enabling.profile))), by = 'Enabling.profile') %>% 
   mutate(popup = paste0("<span style='font-size: 120%'><strong>", Country ,"</strong></span><br/>",
-                        "<strong>", "Enabling profile: ", "</strong>", `Enabling profile`)) #%>% 
+                        "<br/>", 
+                        "<strong>", "Enabling profile: ", "</strong>", `Enabling profile`,
+                        "<br/>", 
+                        "<br/>", 
+                        "<strong>", "Policy: ", "</strong>", Policy, 
+                        "<br/>", 
+                        "<strong>", "Regulation: ", "</strong>", Regulation, 
+                        "<br/>", 
+                        "<strong>", "Engagement: ", "</strong>", Engagement)) #%>% 
   #pull(popup)
 
 # vector of profile/country names
