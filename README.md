@@ -6,6 +6,8 @@ Please cite Buelow et al. (*in prep*) *'Enabling conservation theories of change
 
 Find additional data and code for all analyses [here](https://github.com/cabuelow/enabling-theories-of-change).
 
+![](map-app.png)
+
 [About](#about) | [Indicators and data sources for enabling mechanisms](#indicators-and-data-sources-for-enabling-mechanisms) | [License](LICENSE)
 
 ### About
