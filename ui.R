@@ -29,7 +29,7 @@ navbarPage(
                                      'Enabling profiles represent distinct', "<span style='font-size: 100%'><strong>", 'socioeconomic and political conditions',"</strong></span>",'for facilitating mangrove, seagrass and saltmarsh conservation.',
                                      "<br/>",
                                      "<br/>", "<span style='font-size: 100%'><strong>",
-                                     'Circles are case-studies', "</strong></span>", 'for how Enabling profiles can inform conservation implementation pathways (i.e., Theories of Change.)',
+                                     'Circles are case-studies', "</strong></span>", 'for how Enabling profiles can inform conservation implementation pathways (i.e., Theories of Change).',
                                      "<br/>", "<br/>",'Click on the circles to find out more.',
                                      "<br/>", "<br/>",'Links to references are provided in the', "<span style='font-size: 100%'><strong>", 'Reference', "</strong></span>", 'tab above.')),
                              selectInput("var", label = h5("Choose an Enabling profile or Country"), 
