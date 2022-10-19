@@ -9,6 +9,8 @@ library(leaflet.extras2)
 # server logic
 
 function(input, output, session) {
+  
+  hintjs(session)
 
   output$enabling_map <- renderLeaflet({
     leaflet() %>% 
@@ -30,14 +32,14 @@ function(input, output, session) {
                 #values = ~Ecosystem,
                 labels = c('Enabling profile 1', 'Enabling profile 2', 'Enabling profile 3',
                            'Enabling profile 4', 'Enabling profile 5', 'Enabling profile 6'),
-                #title = "Enabling profiles",
+                title = "Enabling profiles",
                 opacity = 1) %>% 
       addLegend("bottomright",
                 #data = toc_dat,
                 colors =rgb(t(col2rgb(c('deeppink4', 'darkorange3'))) / 255),
                 #values = ~Ecosystem,
                 labels = c('Mangroves', 'Seagrass'),
-                #title = "Coastal wetland ecosystem",
+                title = "Case-study Theories of Change",
                 opacity = 1, group = "Case study Theories of Change") %>% 
       addLayersControl(
         overlayGroups = c("Case study Theories of Change"),

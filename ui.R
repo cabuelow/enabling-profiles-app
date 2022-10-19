@@ -2,6 +2,7 @@ library(dplyr)
 library(sf)
 library(leaflet)
 library(shiny)
+library(rintrojs)
 
 # load and wrangle all required components for app
 source("load-data.R")
@@ -11,6 +12,7 @@ source("load-data.R")
 navbarPage(
   title = div("Enabling profiles for coastal wetland conservation", id = 'nav'),
   tabPanel('Map',
+           introjsUI(),
            div(class="outer",
                tags$head(
                  includeCSS("styles.css")
@@ -21,6 +23,14 @@ navbarPage(
                absolutePanel(id = 'controls', top = 100, left = 30,
                             class = "panel panel-default",  
                             draggable = T,
+                            introBox(data.hint = c('Countries are coloured according to the', "<span style='font-size: 100%'><strong>", 'Enabling profile', "</strong></span>", 'they belong to.',
+                                                   "<br/>",
+                                     "<br/>",
+                                     'Enabling profiles represent distinct', "<span style='font-size: 100%'><strong>", 'socioeconomic and political conditions',"</strong></span>",'for facilitating mangrove, seagrass and saltmarsh conservation.',
+                                     "<br/>",
+                                     "<br/>", "<span style='font-size: 100%'><strong>",
+                                     'Circles are case-studies', "</strong></span>", 'for how Enabling profiles can inform conservation implementation pathways (i.e., Theories of Change.)',
+                                     "<br/>", "<br/>",'Click on the circles to find out more.')),
                              selectInput("var", label = h5("Choose an Enabling profile or Country"), 
                                          choices = country, 
                                          selected = 'Globe')
