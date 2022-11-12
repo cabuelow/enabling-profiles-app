@@ -2,7 +2,7 @@
 
 Tour the web app [here](https://cbuelow.shinyapps.io/enabling-profiles).
 
-Please cite Buelow et al. (*in prep*) *'Enabling conservation Theories of Change'* if you use output from this app.
+Please cite Buelow et al. (*under review*) *'Enabling conservation Theories of Change'* https://doi.org/10.21203/rs.3.rs-2184542/v1 if you use output from this app.
 
 Find additional data and code for all analyses [here](https://github.com/cabuelow/enabling-theories-of-change).
 
