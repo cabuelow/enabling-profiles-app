@@ -36,7 +36,7 @@ function(input, output, session) {
                 opacity = 1) %>% 
       addLegend("bottomright",
                 #data = toc_dat,
-                colors =rgb(t(col2rgb(c('deeppink4', 'darkorange3'))) / 255),
+                colors =rgb(t(col2rgb(c('darkgoldenrod1', 'midnightblue'))) / 255),
                 #values = ~Ecosystem,
                 labels = c('Mangroves', 'Seagrass'),
                 title = "Case-study Theories of Change",

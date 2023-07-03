@@ -62,15 +62,14 @@ world.clust <- World %>%
 
 # colour palette
 
-palset <- brewer.pal(9, 'YlGnBu')
-palset <- palset[c(2,3,5,6,8,9)]
+palset <- pal <- c("#88CCEE","#6699CC", "#44AA99", "#117733", "#CC6677","#882255")
 
 pal <- colorFactor( # colour palette for blue forest projects
   palette = palset,
   domain = world.clust$`Enabling profile`)
 
 pal2 <- colorFactor( # colour palette for blue forest projects
-  palette = c('deeppink4', 'darkorange3'),
+  palette = c('darkgoldenrod1', 'midnightblue'),
   domain = toc_dat$Ecosystem)
 
 # pop-ups
