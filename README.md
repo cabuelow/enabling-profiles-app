@@ -6,9 +6,9 @@ Please cite Buelow et al. (*under review*) *'Enabling conservation Theories of C
 
 Find additional data and code for all analyses [here](https://github.com/cabuelow/enabling-theories-of-change).
 
-![](map-app.png)
-
 [About](#about) | [Indicators and data sources for enabling mechanisms](#indicators-and-data-sources-for-enabling-mechanisms) | [License](LICENSE)
+
+![](map-app.png)
 
 ### About
 
