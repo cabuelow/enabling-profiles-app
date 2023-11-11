@@ -2,7 +2,7 @@
 
 Tour the web app [here](https://cbuelow.shinyapps.io/enabling-profiles).
 
-Please cite Buelow et al. (*under review*) *'Enabling conservation Theories of Change'* <https://doi.org/10.21203/rs.3.rs-2184542/v1> if you use output from this app.
+Please cite Buelow et al. (2023) [*'Enabling conservation Theories of Change'*](https://doi.org/10.1038/s41893-023-01245-y) if you use output from this app.
 
 Find additional data and code for all analyses [here](https://github.com/cabuelow/enabling-theories-of-change).
 
@@ -10,7 +10,7 @@ Find additional data and code for all analyses [here](https://github.com/cabuelo
 
 ![](map-app.png)
 
-### About
+### About {#about}
 
 Conservation requires policy, regulatory and engagement mechanisms that enable effective action. We used 19 indicators of enabling mechanisms to group countries across the world into six **Enabling Profiles**.
 
@@ -18,10 +18,10 @@ Each **Enabling Profile** represents distinct enabling conditions for vegetated 
 
 Use the [app](https://cbuelow.shinyapps.io/enabling-profiles) to explore **Enabling Profiles** and case-study examples of conservation implementation pathways for mangroves and seagrass.
 
-### Indicators and data sources for enabling mechanisms
+### Indicators and data sources for enabling mechanisms {#indicators-and-data-sources-for-enabling-mechanisms}
 
 | Category   | Indicator                                           | Description                                                                                                                                                                                                                                              | Source                                                                                                                                                                                                                                                                             |
-|------------|------------|-----------------------|--------------------------|
+|---------------|---------------|--------------------|----------------------|
 | Policy     | Nationally Determined Contribution (NDC) commitment | The commitment of a country to reducing green-house gas emissions, pledged as Nationally Determined Contributions (NDC)                                                                                                                                  | Watson, R., McCarthy, J.J., Canziani P., Nakicenovic, N., Hisas, L. 2019. The truth behind the climate pledges. The Universal Ecological Fund (FEU-US)                                                                                                                             |
 | Policy     | Nationally Determined Contribution (NDC) mitigation | Whether coastal wetlands are included in a country's Nationally Determined Contribution (NDC) mitigation strategy                                                                                                                                        | Herr, D., & Landis, E. 2016. Coastal blue carbon ecosystems Opportunities for Nationally Determined Contributions. Policy brief. Gland, Switzerland: IUCN and Washington, DC, USA: TNC. Retrieved from www.bluecsolutions.org                                                      |
 | Policy     | Nationally Determined Contribution (NDC) adaptation | Whether coastal wetlands are included in a country's Nationally Determined Contribution (NDC) adaptation strategy                                                                                                                                        | Herr, D., & Landis, E. 2016. Coastal blue carbon ecosystems Opportunities for Nationally Determined Contributions. Policy brief. Gland, Switzerland: IUCN and Washington, DC, USA: TNC. Retrieved from www.bluecsolutions.org                                                      |
